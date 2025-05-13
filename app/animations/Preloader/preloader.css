@@ -1,0 +1,7 @@
+.preloader {
+  overflow: hidden;
+}
+
+.preloader-inner {
+  padding: 0 10px;
+}
