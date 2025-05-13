@@ -34,8 +34,9 @@ body {
 
 body {
   overflow-y: hidden;
+  background: #0e1016;
 }
 
 .memoji {
-  outline: 0
+  outline: 0;
 }

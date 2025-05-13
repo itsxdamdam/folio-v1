@@ -13,7 +13,6 @@ const Hero = () => {
       {
         // autoAlpha: 1,
         y: 0,
-        ease: "power1.inOut",
       },
       {
         // autoAlpha: 0,
