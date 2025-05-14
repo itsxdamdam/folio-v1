@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { DarkModeContext } from "../context/DarkModeContext";
-import Screen from "../animations/Preloader/Screen";
+// import Screen from "../animations/Preloader/Screen";
 const Navbar = () => {
   const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
   console.log("navbar-drk", darkMode);
