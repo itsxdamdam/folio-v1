@@ -1,3 +1,5 @@
+"use client";
+
 import { createContext, ReactNode, useState } from "react";
 
 type darkModeType = {
@@ -19,7 +21,6 @@ function DarkModeProvider({ children }: Props) {
 
   const toggleDarkMode = () => {
     setDarkMode((prev) => !prev);
-    
   };
 
   return (
