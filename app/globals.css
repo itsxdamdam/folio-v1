@@ -2,7 +2,7 @@
 
 @layer base {
   h1 {
-    @apply text-8xl;
+    @apply text-9xl;
     @apply font-bold;
   }
   h2 {
@@ -33,7 +33,7 @@ body {
 }
 
 body {
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   background: #0e1016;
 }
 

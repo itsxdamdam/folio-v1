@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import Blobity from "blobity";
 // import Navbar from "./Navbar/page";
 import Hero from "./hero-section/Hero";
+import About from "./about-section/About";
 
 declare global {
   interface Window {
@@ -32,6 +33,7 @@ export default function Home() {
       ) : (
         <main className="flex flex-col items-center justify-center">
           <Hero />
+          <About />
         </main>
       )}
 
