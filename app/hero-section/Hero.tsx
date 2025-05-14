@@ -17,7 +17,7 @@ const Hero = () => {
       {
         // autoAlpha: 0,
         y: 800,
-        duration: 1,
+        duration: 2,
         yoyo: true,
       }
     );

@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <section className="bg-[#0E1016] text-white  z-40 mt-7 w-3/4 font-medium  font-[syne]">
-      <div className=" grid grid-cols-1 md:grid-col-2 gap-4">
+      <div className=" grid md:grid-cols-2 gap-4">
         <div className="about-text col-span-1 my-3 leading-[1.8]">
           I am a Software Engineer, with great passion for solving problems
           through innovative and user-friendly solutions. If the goal is to

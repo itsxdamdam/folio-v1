@@ -13,7 +13,7 @@ const ProjectCard = ({
   image,
 }: ProjectProps) => {
   return (
-    <div className="relative project-card p-7 justify-center text-white bg-[#20273A] rounded-3xl my-2 h-[700px] md:h-[500px] w-full">
+    <div className="relative project-card p-7 justify-center text-white bg-[#20273A] rounded-3xl my-4 h-[720px] md:h-[500px] w-full">
       <div className="h-full flex flex-col md:justify-between md:w-[40%]">
         <div className="links">
           <Link href={live_link} className="font-bold pr-3 md:text-2xl">
