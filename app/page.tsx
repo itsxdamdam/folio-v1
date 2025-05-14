@@ -8,6 +8,7 @@ import Blobity from "blobity";
 // import Navbar from "./Navbar/page";
 import Hero from "./hero-section/Hero";
 import About from "./about-section/About";
+import Work from "./projects/Work";
 
 declare global {
   interface Window {
@@ -28,14 +29,15 @@ export default function Home() {
 
   return (
     <>
-      {!preloader ? (
+      {/* {!preloader ? (
         <Preloader onDone={() => setPreloader(true)} />
-      ) : (
+      ) : ( */}
         <main className="flex flex-col items-center justify-center">
           <Hero />
           <About />
+          <Work />
         </main>
-      )}
+      {/* )} */}
 
       {/* <Navbar /> */}
     </>

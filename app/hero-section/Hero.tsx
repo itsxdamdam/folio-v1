@@ -97,7 +97,7 @@ const Hero = () => {
       </div>
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="main-text flex flex-col h-full items-center justify-center text-[#e4ded7] opacity-0">
-          <h1 className=" flex justify-center items-center font-[mona_sans]">
+          <h1 className=" flex justify-center items-center font-[mona_sans] md:text-9xl text-3xl">
             BAKARE{" "}
             <span className="align-center">
               <Image
@@ -112,7 +112,7 @@ const Hero = () => {
             </span>
             SAMUEL
           </h1>
-          <div className="text-[#e4ded7] flex justify-stretch items-center mt-5 justify-self-start w-full">
+          <div className="text-[#e4ded7] flex flex-col-reverse md:flex-row items-start mt-5 justify-self-end w-full">
             <h3 className="mx-2 title-text opacity-0">SOFTWARE ENGINEER,</h3>
             <h3 className="mx-2 title-text opacity-0">BUILDER,</h3>
             <h3 className="mx-2 title-text opacity-0">LEADER.</h3>
