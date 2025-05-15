@@ -43,7 +43,7 @@ export const Projects = [
     technologies: ["TypeScript", "Next.js", "Rust", "TailwindCSS", "Anchor"],
     github: "https://github.com/itsxdamdam/dropfunds",
     live_link: "https://gofundme-dapp.netlify.app/",
-    image: "/dropfunds.webp",
+    image: "/dropfunds.png",
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ export const Projects = [
     technologies: ["TypeScript", "Node.js", "Prisma"],
     github: "https://github.com/itsxdamdam/chronos-api",
     live_link: "https://github.com/itsxdamdam/chronos-api",
-    image: "/chronos-api.png",
+    image: "/chronos.png",
   },
 ];
 

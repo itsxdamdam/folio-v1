@@ -63,9 +63,9 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="flex h-[85vh] z-20 w-full bg-[url('/hero.jpg')] relative bg-cover bg-center py-0 px-5">
+    <section className="flex h-[85vh] z-20 w-full bg-[url('/hero.jpg')] relative bg-cover bg-center py-0 md:px-5">
       <div className="hero-black absolute top-0 bottom-0 left-0 right-0 h-full w-full bg-[#0E1016]"></div>
-      <div className="link absolute flex top-2 right-5 justify-end py-4 px-2 items-end gap-10 text-[#e4ded7] opacity-0">
+      <div className="link absolute flex top-2 md:right-5 right-[10px] justify-end py-4 px-2 items-end gap-10 text-[#e4ded7] opacity-0">
         <Link
           href={`mailto:bakareayomiku@gmail.com`}
           target="_blank"
@@ -115,7 +115,7 @@ const Hero = () => {
           <div className="text-[#e4ded7] flex flex-col-reverse md:flex-row items-start mt-5 justify-self-end w-full">
             <h3 className="mx-2 title-text opacity-0">SOFTWARE ENGINEER,</h3>
             <h3 className="mx-2 title-text opacity-0">BUILDER,</h3>
-            <h3 className="mx-2 title-text opacity-0">LEADER.</h3>
+            <h3 className="mx-2 title-text opacity-0">LEADER</h3>
           </div>
         </div>
         <p className="currently-tag font-bold  text-[#e4d] mb-5 bg-[#0E1016] p-4 opacity-0">
