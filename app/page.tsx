@@ -29,15 +29,15 @@ export default function Home() {
 
   return (
     <>
-      {/* {!preloader ? (
+      {!preloader ? (
         <Preloader onDone={() => setPreloader(true)} />
-      ) : ( */}
+      ) : (
         <main className="flex flex-col items-center justify-center">
           <Hero />
           <About />
           <Work />
         </main>
-       {/* )} */}
+      )}
 
       {/* <Navbar /> */}
     </>
