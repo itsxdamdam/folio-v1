@@ -9,6 +9,8 @@ import Blobity from "blobity";
 import Hero from "./hero-section/Hero";
 import About from "./about-section/About";
 import Work from "./projects/Work";
+import Footer from "./Footer/Footer";
+// import OtherProjects from "./projects/OtherProjects";
 
 declare global {
   interface Window {
@@ -36,6 +38,8 @@ export default function Home() {
           <Hero />
           <About />
           <Work />
+          {/* <OtherProjects /> */}
+          <Footer />
         </main>
       )}
 

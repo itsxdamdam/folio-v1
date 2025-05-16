@@ -8,6 +8,12 @@ export type ProjectProps = {
   image: string;
 };
 
+export type MoreProjectsProps = {
+  id: number;
+  name: string;
+  image: string;
+};
+
 export const Projects = [
   {
     id: 1,
@@ -57,12 +63,10 @@ export const Projects = [
   },
 ];
 
-export const OtherProjects = [
+export const MoreProjects = [
   { id: 1, name: "apple-clone", image: "/apple-1.png" },
   { id: 2, name: "colossus-digital", image: "/colossusdigi1.png" },
-  { id: 3, name: "retro-snake", image: "/retro-snake.png" },
-  { id: 4, name: "drop-funds", image: "/dropfunds-1.png" },
+  { id: 3, name: "retro-snake", image: "/snake-retro.png" },
+  { id: 4, name: "drop-funds", image: "/dropfund-1.png" },
   { id: 5, name: "Ecommerce", image: "/ecommerce1.png" },
-  { id: 6, name: "apple-website", image: "/apple-website.png" },
-  { id: 7, name: "horizbank", image: "/horizbank-image" },
 ];

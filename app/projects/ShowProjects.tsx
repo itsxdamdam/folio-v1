@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 
 const ShowProjects = () => {
   return (
-    <div className="my-4">
+    <div className="my-5">
       {Projects.map((project: ProjectProps) => (
         <ProjectCard
           id={project.id}
