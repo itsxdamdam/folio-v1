@@ -97,7 +97,7 @@ const Hero = () => {
       </div>
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="main-text flex flex-col h-full items-center justify-center text-[#e4ded7] opacity-0">
-          <h1 className=" flex justify-center items-center font-[mona_sans] md:text-9xl text-3xl">
+          <h1 className=" flex justify-center items-center font-[mona_sans] lg:text-8xl text-3xl md:text-6xl">
             BAKARE{" "}
             <span className="align-center">
               <Image
