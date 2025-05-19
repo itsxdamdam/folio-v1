@@ -29,7 +29,7 @@ const About = () => {
       <div className="about-text mt-5">
         <p className="font-extrabold text-[20px]">Languages & Frameworks</p>
         JavaScript (ES6+), React, Next.js, TypeScript, HTML5, Node.js, NestJS,
-        Python
+        Python, React Native
       </div>
     </section>
   );
