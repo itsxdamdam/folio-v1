@@ -48,7 +48,7 @@ export const Projects = [
       "Co-developed solana-based crowdfunding platform supporting cryptocurrency transactions. - Provided design direction. - Created multiview web application.",
     technologies: ["TypeScript", "Next.js", "Rust", "TailwindCSS", "Anchor"],
     github: "https://github.com/itsxdamdam/dropfunds",
-    live_link: "https://gofundme-dapp.netlify.app/",
+    live_link: "",
     image: "/dropfunds.png",
   },
   {
