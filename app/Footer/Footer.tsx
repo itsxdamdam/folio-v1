@@ -15,7 +15,7 @@ const Footer = () => {
 
       <p className="text-xl font-bold self-center">bakareayomiku@gmail.com</p>
       <p className="self-end">
-        <Link href="https://github.com/itsxdamdam">
+        <Link target="_blank" href="https://github.com/itsxdamdam">
           Designed by Bakare Samuel
         </Link>
       </p>
