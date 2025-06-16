@@ -6,7 +6,7 @@ export type ProjectProps = {
   github: string;
   live_link: string;
   image: string;
-  category: string
+  category: string;
 };
 
 export type MoreProjectsProps = {
@@ -31,7 +31,7 @@ export const Projects = [
     github: "https://github.com/itsxdamdam/bankly",
     live_link: "https://bankly-lake.vercel.app/",
     image: "/horizbank-image.png",
-    category: "Web App"
+    category: "Web App",
   },
   {
     id: 2,
@@ -42,7 +42,7 @@ export const Projects = [
     github: "https://github.com/itsxdamdam/apple-website",
     live_link: "https://apple-website-ten-opal.vercel.app/",
     image: "/apple-website.png",
-    category: "Frontend & Interactive"
+    category: "Interactive Website",
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ export const Projects = [
     github: "https://github.com/itsxdamdam/dropfunds",
     live_link: "",
     image: "/dropfunds.png",
-    category: "Web3"
+    category: "Web3",
   },
   {
     id: 4,
@@ -64,7 +64,18 @@ export const Projects = [
     github: "https://github.com/itsxdamdam/chronos-api",
     live_link: "https://github.com/itsxdamdam/chronos-api",
     image: "/chronos.png",
-    category: "Backend & Systems"
+    category: "Backend & Systems",
+  },
+  {
+    id: 5,
+    name: "Productivity Saas",
+    description:
+      "This is Landing Page for SaaS all-in-one productivity companion designed to help you stay organized, focused, and in control of your day. Whether you're managing tasks, planning your week, or tracking habits, our intuitive interface and smart features make it effortless to get things done.",
+    technologies: ["TypeScript", "Next.js", "TailwindCSS, Framer"],
+    github: "https://github.com/itsxdamdam/saas-landing",
+    live_link: "https://saas-landing-two.vercel.app/",
+    image: "/saas.png",
+    category: "Interactive Website",
   },
 ];
 
