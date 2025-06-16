@@ -6,6 +6,7 @@ export type ProjectProps = {
   github: string;
   live_link: string;
   image: string;
+  category: string
 };
 
 export type MoreProjectsProps = {
@@ -30,6 +31,7 @@ export const Projects = [
     github: "https://github.com/itsxdamdam/bankly",
     live_link: "https://bankly-lake.vercel.app/",
     image: "/horizbank-image.png",
+    category: "Web App"
   },
   {
     id: 2,
@@ -40,6 +42,7 @@ export const Projects = [
     github: "https://github.com/itsxdamdam/apple-website",
     live_link: "https://apple-website-ten-opal.vercel.app/",
     image: "/apple-website.png",
+    category: "Frontend & Interactive"
   },
   {
     id: 3,
@@ -50,6 +53,7 @@ export const Projects = [
     github: "https://github.com/itsxdamdam/dropfunds",
     live_link: "",
     image: "/dropfunds.png",
+    category: "Web3"
   },
   {
     id: 4,
@@ -60,6 +64,7 @@ export const Projects = [
     github: "https://github.com/itsxdamdam/chronos-api",
     live_link: "https://github.com/itsxdamdam/chronos-api",
     image: "/chronos.png",
+    category: "Backend & Systems"
   },
 ];
 
