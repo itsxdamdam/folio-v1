@@ -19,7 +19,7 @@ declare global {
 }
 
 export default function Home() {
-  const [preloader, setPreloader] = useState(false);
+  // const [preloader, setPreloader] = useState(false);
 
   const blobityInstance = useBlobity(initialBlobityOptions);
 
@@ -31,9 +31,9 @@ export default function Home() {
 
   return (
     <>
-      {!preloader ? (
+      {/* {!preloader ? (
         <Preloader onDone={() => setPreloader(true)} />
-      ) : (
+      ) : ( */}
         <main className="flex flex-col items-center justify-center">
           <Hero />
           <About />
@@ -41,7 +41,7 @@ export default function Home() {
           {/* <OtherProjects /> */}
           <Footer />
         </main>
-      )}
+      {/* )} */}
 
       {/* <Navbar /> */}
     </>

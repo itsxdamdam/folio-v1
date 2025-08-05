@@ -6,7 +6,7 @@ export type ProjectProps = {
   github: string;
   live_link: string;
   image: string;
-  category: string;
+  // category: string;
 };
 
 export type MoreProjectsProps = {
@@ -20,7 +20,7 @@ export const Projects = [
     id: 1,
     name: "HorizBank",
     description:
-      "Horizon is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.",
+      "HorizBank is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.",
     technologies: [
       "TypeScript",
       "Next.js",
