@@ -19,28 +19,27 @@ const Hero = () => {
         y: 800,
         duration: 2,
         yoyo: true,
+        ease: "pow",
       }
     );
 
     gsap.to(".link", {
       yoyo: true,
-      delay: 2,
-      duration: 3,
+      delay: 1,
+      duration: 2,
       opacity: 1,
-      ease: "elastic",
     });
 
     gsap.to(".main-text", {
       yoyo: true,
-      delay: 3,
-      duration: 3,
+      delay: 2,
+      duration: 2,
       opacity: 1,
-      ease: "elastic",
     });
 
     gsap.to(".title-text", {
       yoyo: true,
-      delay: 5,
+      delay: 4,
       duration: 8,
       opacity: 1,
       stagger: 0.2,

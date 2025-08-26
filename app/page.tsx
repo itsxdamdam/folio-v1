@@ -2,15 +2,12 @@
 
 import useBlobity from "blobity/lib/react/useBlobity";
 import { initialBlobityOptions } from "./utils/BlobityConfig";
-import Preloader from "./animations/Preloader/Preloader";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Blobity from "blobity";
-// import Navbar from "./Navbar/page";
 import Hero from "./hero-section/Hero";
 import About from "./about-section/About";
 import Work from "./projects/Work";
 import Footer from "./Footer/Footer";
-// import OtherProjects from "./projects/OtherProjects";
 
 declare global {
   interface Window {
@@ -19,8 +16,6 @@ declare global {
 }
 
 export default function Home() {
-  // const [preloader, setPreloader] = useState(false);
-
   const blobityInstance = useBlobity(initialBlobityOptions);
 
   useEffect(() => {
@@ -31,19 +26,13 @@ export default function Home() {
 
   return (
     <>
-      {/* {!preloader ? (
-        <Preloader onDone={() => setPreloader(true)} />
-      ) : ( */}
-        <main className="flex flex-col items-center justify-center">
-          <Hero />
-          <About />
-          <Work />
-          {/* <OtherProjects /> */}
-          <Footer />
-        </main>
-      {/* )} */}
+      <main className="flex flex-col items-center justify-center">
+        <Hero />
+        <About />
+        <Work />
 
-      {/* <Navbar /> */}
+        <Footer />
+      </main>
     </>
   );
 }
