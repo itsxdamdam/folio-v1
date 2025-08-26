@@ -63,7 +63,7 @@ export const Projects = [
     technologies: ["React", "GSAP", "Three.js"],
     github: "https://github.com/itsxdamdam/apple-website",
     live_link: "https://apple-website-ten-opal.vercel.app/",
-    image: "/apple-website.png",
+    image: "/apple-1.png",
     category: "Interactive Website",
   },
   {

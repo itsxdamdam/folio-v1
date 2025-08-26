@@ -13,8 +13,8 @@ const ProjectCard = ({
   image,
 }: ProjectProps) => {
   return (
-    <div className="flex  project-card p-7 justify-center text-white bg-[#20273A] rounded-3xl my-4  w-full">
-      <div className="h-full flex flex-col lg:justify-between md:justify-start md:w-full lg:w-[40%] xl:w-[60%] ">
+    <div className="flex flex-col items-center lg:flex-row project-card p-6 justify-center text-white bg-[#20273A] rounded-3xl my-4 w-full gap-4">
+      <div className="flex flex-col lg:justify-between md:justify-start md:w-full lg:w-[40%] xl:w-[60%] gap-4">
         <div className="links">
           <Link
             href={live_link}
@@ -31,9 +31,9 @@ const ProjectCard = ({
             Github
           </Link>
         </div>
-        <div className="">
+        <div className="leading-9">
           <p className="font-extrabold text-[24px]">{name}</p>
-          <p className="text-[18px] mt-2 leading-8 lg:flex-wrap">
+          <p className="text-[18px] mt-2 leading-7 lg:flex-wrap">
             {description}
           </p>
         </div>
@@ -47,7 +47,7 @@ const ProjectCard = ({
         <Image
           src={image}
           alt={`${id}${name}`}
-          className="rounded-tl-3xl rounded-br-3xl lg:w-[450px]"
+          className="rounded-tl-3xl rounded-br-3xl w-[500px]"
           width={550}
           height={550}
         />
