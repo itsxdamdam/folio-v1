@@ -105,6 +105,7 @@ const Hero = () => {
                 width={100}
                 height={100}
                 className="memoji opacity-0"
+                style={{ width: "auto", height: "auto" }}
               />
             </span>
             SAMUEL
