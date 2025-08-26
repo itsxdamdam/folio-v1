@@ -18,6 +18,17 @@ export type MoreProjectsProps = {
 export const Projects = [
   {
     id: 1,
+    name: "Converso",
+    description:
+      " Converso, a modern Learning Management SaaS platform that combines real-time teaching, AI-powered tutoring, and seamless subscription management. The platform allows users to sign up securely, subscribe to different learning plans, and access interactive sessions with AI voice tutors. Learners can also create their own custom tutors, bookmark sessions, and manage their learning journey across devices.",
+    technologies: ["TypeScript", "Next.js", "Shadcn", "TailwindCSS", "Lottie"],
+    github: "https://github.com/itsxdamdam/converso",
+    live_link: "https://converso-six-cyan.vercel.app/",
+    image: "/converso.png",
+    category: "Web App",
+  },
+  {
+    id: 2,
     name: "HorizBank",
     description:
       "HorizBank is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.",
@@ -34,7 +45,18 @@ export const Projects = [
     category: "Web App",
   },
   {
-    id: 2,
+    id: 3,
+    name: "Productivity Saas",
+    description:
+      "Landing Page for SaaS all-in-one productivity companion designed to help you stay organized, focused, and in control of your day. Whether you're managing tasks, planning your week, or tracking habits, our intuitive interface and smart features make it effortless to get things done.",
+    technologies: ["Next", "TypeScript", "Framer Motion"],
+    github: "https://github.com/itsxdamdam/saas-landing",
+    live_link: "https://saas-landing-two.vercel.app/",
+    image: "/saas.png",
+    category: "Website",
+  },
+  {
+    id: 4,
     name: "Apple Website",
     description:
       "Apple Website This project displays the potential of dynamic animations. This concept aims to reimagine the landing page for Apple's iPhone 15 Pro Device, leveraging engaging visual effects to enhance user engagement and potentially drive immediate purchase decisions.",
@@ -45,18 +67,7 @@ export const Projects = [
     category: "Interactive Website",
   },
   {
-    id: 3,
-    name: "DropFunds",
-    description:
-      "Co-developed solana-based crowdfunding platform supporting cryptocurrency transactions. - Provided design direction. - Created multiview web application.",
-    technologies: ["TypeScript", "Next.js", "Rust", "TailwindCSS", "Anchor"],
-    github: "https://github.com/itsxdamdam/dropfunds",
-    live_link: "",
-    image: "/dropfunds.png",
-    category: "Web3",
-  },
-  {
-    id: 4,
+    id: 5,
     name: "Chronos API",
     description:
       "This is an API for a ChangeLog App called Chronos. This allows managers to post product updates for their users. The Users can read, create, update and delete product updates.",
@@ -65,17 +76,6 @@ export const Projects = [
     live_link: "https://github.com/itsxdamdam/chronos-api",
     image: "/chronos.png",
     category: "Backend & Systems",
-  },
-  {
-    id: 5,
-    name: "Productivity Saas",
-    description:
-      "This is Landing Page for SaaS all-in-one productivity companion designed to help you stay organized, focused, and in control of your day. Whether you're managing tasks, planning your week, or tracking habits, our intuitive interface and smart features make it effortless to get things done.",
-    technologies: ["TypeScript", "Next.js", "TailwindCSS, Framer"],
-    github: "https://github.com/itsxdamdam/saas-landing",
-    live_link: "https://saas-landing-two.vercel.app/",
-    image: "/saas.png",
-    category: "Interactive Website",
   },
 ];
 

@@ -101,7 +101,7 @@ const Hero = () => {
             BAKARE{" "}
             <span className="align-center">
               <Image
-                src="/Memoji.png"
+                src="/memoji.png"
                 alt="memoji"
                 width={100}
                 height={100}

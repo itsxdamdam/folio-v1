@@ -13,7 +13,7 @@ const ProjectCard = ({
   image,
 }: ProjectProps) => {
   return (
-    <div className="relative project-card p-7 justify-center text-white bg-[#20273A] rounded-3xl my-4 h-[720px] md:h-[800px] lg:h-[500px] w-full">
+    <div className="flex  project-card p-7 justify-center text-white bg-[#20273A] rounded-3xl my-4  w-full">
       <div className="h-full flex flex-col lg:justify-between md:justify-start md:w-full lg:w-[40%] xl:w-[60%] ">
         <div className="links">
           <Link
@@ -47,7 +47,7 @@ const ProjectCard = ({
         <Image
           src={image}
           alt={`${id}${name}`}
-          className="absolute right-0 bottom-0 rounded-tl-3xl rounded-br-3xl lg:w-[450px]"
+          className="rounded-tl-3xl rounded-br-3xl lg:w-[450px]"
           width={550}
           height={550}
         />
