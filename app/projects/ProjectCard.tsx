@@ -32,7 +32,7 @@ const ProjectCard = ({
           </Link>
         </div>
         <div className="leading-9">
-          <p className="font-extrabold text-[24px]">{name}</p>
+          <p className="font-extrabold text-[24px] tracking-wider">{name}</p>
           <p className="text-[18px] mt-2 leading-7 lg:flex-wrap">
             {description}
           </p>
